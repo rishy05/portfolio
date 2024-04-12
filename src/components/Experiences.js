@@ -5,7 +5,7 @@ function projects() {
   return (
     <section id="projects" className="section">
       <div className="section-header">
-        <h2>projects</h2>
+        <h2>Experiences</h2>
       </div>
       <div className="section-content">
         <div className="project-card">
