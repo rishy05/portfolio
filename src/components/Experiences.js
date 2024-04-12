@@ -1,15 +1,15 @@
-// components/Experiences.js
+// components/projects.js
 import React from 'react';
 
-function Experiences() {
+function projects() {
   return (
-    <section id="experiences" className="section">
+    <section id="projects" className="section">
       <div className="section-header">
-        <h2>Experiences</h2>
+        <h2>projects</h2>
       </div>
       <div className="section-content">
-        <div className="experience-card">
-          <div className="experience-details">
+        <div className="project-card">
+          <div className="project-details">
             <p>
               The Hindu (Prominent media company)
               <br />
@@ -19,8 +19,8 @@ function Experiences() {
             </p>
           </div>
         </div>
-        <div className="experience-card">
-          <div className="experience-details">
+        <div className="project-card">
+          <div className="project-details">
             <p>
               AIROSSPACE R&D (Drone based start-up)
               <br />
@@ -35,4 +35,4 @@ function Experiences() {
   );
 }
 
-export default Experiences;
+export default projects;
