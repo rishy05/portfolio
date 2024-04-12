@@ -151,9 +151,8 @@ nav a:hover {
 /* Responsive Design */
 @media (max-width: 768px) {
   .nav-container {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .logo a {
@@ -161,24 +160,13 @@ nav a:hover {
   }
 
   nav ul {
-    display: none;
     flex-direction: column;
     align-items: center;
-    background-color: #1f1f1f;
-    position: absolute;
-    top: 50px;
-    left: 0;
-    width: 100%;
-    z-index: 1;
-    padding: 10px 0;
+    margin-top: 10px;
   }
 
   nav li {
     margin: 5px 0;
-  }
-
-  nav.responsive ul {
-    display: flex;
   }
 
   .section-header h2 {
