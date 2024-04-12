@@ -2,7 +2,7 @@
 import React from 'react';
 const Button = ({ url, children }) => {
   return (
-    <a href={url} target="_blank" rel="noopener noreferrer" className="contact-links">
+    <a href={url} target="_blank" rel="noopener noreferrer" className="contact-links-button">
       {children}
     </a>
   );
